@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('/assets/Fonts/All/DM_Sans/DMSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/Fonts/All/Open_Sans/static/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/Fonts/All/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DM Sans bold';
+    src: url('/assets/Fonts/All/DM_Sans/DMSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'Open Sans bold';
+    src: url('/assets/Fonts/All/Open_Sans/static/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto bold';
+    src: url('/assets/Fonts/All/Roboto/Roboto-Bold.ttf');
+}
+:root{
+    --azul:#004080;
+    --azulClaro:#01549D;
+    --amarillo: #FEEF0F;
+    --gris: #d9d9d9;
+
+    --fuentePrincipal: 'DM Sans', 'Open Sans', 'Roboto';
+    --fuenteNegrita: 'DM Sans bold', 'Open Sans bold', 'Roboto bold';
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 24rem;
+    height: 6.5rem;
+    background-color: #fff;
+    border-radius: 4.5rem;
+    margin: 2rem 1rem;
+    border-color: var(--gris);
+    font-family: var(--fuentePrincipal);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 3.6rem;
+    text-align: center;
+    padding-top: 3.5rem;
+    font-family: var(--fuenteNegrita);
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    padding: 0 2rem;
+}
+
+.main-container{
+    margin-top: 3%;
+    background-color: var(--azul);
+    width: 120rem;
+    height: 70rem;
+    border-radius: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-container{
+    flex-basis: calc(55% - 1rem);
+    background-color: var(--amarillo);
+    margin: 1.3rem 0;
+    border-radius: 2.3rem;
+}
+
+.sub-container{
+    flex-basis: calc(43% - 1rem);
+    background-color: var(--amarillo);
+    margin: 1.3rem 0;
+    border-radius: 2.3rem;
+}
+
+.img-login{
+    max-height: 40rem;
+}
+
+.logo-login{
+    max-height: 20rem;
+}
+
+.center-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-4{
+    margin: 4rem 0;
+}
+
+
+.mx-8{
+    margin: 2rem 8rem;
+}
+
+.login-title{
+    width: 35rem;
+    height: 22rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    margin: 3rem auto;
+}
+
+.icon-circle{
+    width: 7rem;
+    height: 6.5rem;
+    background-color: var(--gris);
+    border-radius: 4.3rem;
+}
+
+.icon-4xl{
+    font-size: 4.5rem;
+}
+
+.btn-login{
+    width: 25rem;
+    height: 7rem;
+    margin: 4rem auto;
+    background-color: var(--azul);
+    color: #fff;
+    border-radius: 4.5rem;
+    text-align: center;
+}
+
+.btn-login:hover{
+    background-color: var(--azulClaro);
+}
+
+.text{
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+}
